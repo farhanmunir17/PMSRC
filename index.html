@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/pms logo.png" type="image/png" />
+    <title>PMS Running Club</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="logo">
+        <a href="index.html">
+          <img src="/images/pms logo.png" alt="PMS Run Logo" />
+          <p>PMSRC</p>
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#race-details">Race Details</a></li>
+          <li><a href="#register">Register</a></li>
+          <li><a href="/login.html">Login</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="hero">
+        <h1>PMS Running Club</h1>
+        <p>RUN, COFFEE, CHILL AND CELEBRATE</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          PMS Run merupakan perlombaan lari terbuka dengan jarak 5KM dan 10KM.
+          PMS Run bertujuan untuk menumbuhkan dan mempromosikan gaya hidup sehat
+          dan aktif melalui olahraga.
+        </p>
+        <div class="slogan2">
+          <h1>Lari Sambil Tebar Kebaikan</h1>
+        </div>
+        <div class="content-pms2">
+          <img src="" alt="coming soon" />
+          <p>
+            PMS Running Club dibentuk pada
+            <strong>13 Agustus 2021</strong>.Awalnya, karena anggotanya ingin
+            punya
+            <strong>teman lari dan teman nongkrong.</strong>
+          </p>
+          <p>
+            Komunitas lari ini juga ingin punya
+            <strong> teman berkarya yang asik </strong> dengan komitmen
+            <b><i>halal lifestyle.</i></b>
+          </p>
+          <p>
+            PMS Running Club <strong> jadikan lari sebagai media </strong> untuk
+            bikin <strong> kegiatan yang bermanfaat </strong> sambil
+            <strong> berbagi kebaikan. </strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="race-details" class="section">
+      <div class="container">
+        <h2>Race Details</h2>
+        <div class="race-category">
+          <h3>5 KM</h3>
+          <p>
+            Price: Rp. 275.000 (Includes Jersey, Bib Number, Finisher Medal)
+          </p>
+        </div>
+        <div class="race-category">
+          <h3>10 KM</h3>
+          <p>
+            Price: Rp. 375.000 (Includes Jersey, Bib Number, Finisher Medal)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="register" class="section">
+      <div class="container">
+        <h2>Register</h2>
+        <div class="box">
+          <form class="register-form" action="register.php" method="post">
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="kategori">Race Category</label>
+            <select id="kategori" name="kategori" required>
+              <option value="5km">5 KM</option>
+              <option value="10km">10 KM</option>
+            </select>
+
+            <button type="submit">Register</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="box">
+          <p>Jika Anda memerlukan bantuan, silakan isi formulir.</p>
+          <form class="contact-form">
+            <label for="pertanyaan">Pilih Pertanyaan</label>
+            <select id="pertanyaan" name="pertanyaan" required>
+              <option value="sponsorship">Sponsorship</option>
+              <option value="pembayaran">Payment</option>
+              <option value="lainnya">Other</option>
+            </select>
+
+            <label for="pesan">Masukan Pesan</label>
+            <textarea id="pesan" name="pesan" required></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+          <p>
+            Email:
+            <a href="mailto:farhanmunirr17@gmail.com"
+              >pmsrunningclub@gmail.com</a
+            >
+          </p>
+          <p>
+            Instagram:
+            <a href="https://www.instagram.com/">@pmsrunningclub</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Copyright © 2024 PMS Running Club. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
